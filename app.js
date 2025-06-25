@@ -1,6 +1,6 @@
 
  let listaDosNumerosSecretos = []
- let numeroLimite = 10
+ let numeroLimite = 100
  let numeroSecreto = gerarNumeroSecreto()
  let tentativa = 1
  console.log (numeroSecreto)
