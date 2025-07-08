@@ -1,6 +1,6 @@
 
  let listaDosNumerosSecretos = []
- let numeroLimite = 50
+ let numeroLimite = 30
  let numeroSecreto = gerarNumeroSecreto()
  let tentativa = 1
  console.log (numeroSecreto)
@@ -18,7 +18,7 @@ function exibirTextoNaTela(tag, texto){
 }
    function exibirMensagemNaTela(){
     exibirTextoNaTela ('h1','Bem vindo ao jogo do número secreto')
-   exibirTextoNaTela ('p','Escolha um número de 1 a 50')
+   exibirTextoNaTela ('p','Escolha um número de 1 a 30')
    }
    exibirMensagemNaTela()
   
